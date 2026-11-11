@@ -1,0 +1,115 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7cba2968-232e-4962-8903-87a31960dc7c")
+	(paper "A4")
+	(title_block
+		(title "Amore Mio")
+		(date "2026-09-21")
+		(rev "v1.00")
+		(company "Tweety's Wild Thinking")
+		(comment 1 "Markus Knutsson <markus.knutsson@tweety.se>")
+		(comment 2 "https://github.com/TweetyDaBird")
+		(comment 3 "Licensed under Creative Commons BY-SA 4.0 International")
+	)
+	(lib_symbols)
+	(sheet
+		(at 21.59 20.32)
+		(size 23.495 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "31e55efb-45af-455b-ac8d-6bd89215a5c0")
+		(property "Sheetname" "Key Matrix"
+			(at 21.59 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Amore Mio-key-matrix.kicad_sch"
+			(at 21.59 32.9696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Amore Mio"
+				(path "/aa495d61-9e6f-4046-b052-04c16b81e7ed"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 40.32)
+		(size 23.495 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f31614ac-8eae-40dc-8820-9758ef861a4f")
+		(property "Sheetname" "Led Chain"
+			(at 21.59 39.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Amore Mio-LED.kicad_sch"
+			(at 21.59 52.9696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Amore Mio"
+				(path "/aa495d61-9e6f-4046-b052-04c16b81e7ed"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
